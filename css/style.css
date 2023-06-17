@@ -1,0 +1,72 @@
+body h1 h2 {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+
+.p-topo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15;
+  margin-bottom: 100px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.grid-texto {
+  font-family: Space Mono;
+  margin-top: 100px;
+}
+
+.grid-texto h1 {
+  font-family: Space Mono;
+  font-weight: 150px;
+}
+
+.botao {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background: #333333;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 150px;
+  color: #BDBDBD;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid-principal {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .grid-principal h1 {
+    margin-top: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .grid-principal img {
+    margin-bottom: 0;
+  }
+
+  .grid-texto a {
+    margin-top: 20px;
+    }
+
+ }
